@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="preparcial">
+    <meta name="keywords" content="html, css, js">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th,td{
+          padding: 5px;
+        }
+ 
+    .p1 {font-family: "Audiowide", sans-serif;}
+    .p2 {font-family: "Sofia", sans-serif;}
+    .p3 {font-family: "Trirong", serif;}
+    .p4 {font-family: 'Times New Roman', Times, serif;}
+    .p5 {font-family: 'Arial', Helvetica, serif;}
+ 
+    </style>
+ 
+    <title>Preparcial</title>
+</head>
+<body style="background-color: rgba(138, 178, 204, 0.952);">
+    <h1 class="p1" style="color: indigo; text-align: center; " >Transpal S.A.C <br>
+        <div style=" text-align: center;">
+        <img src="img/logo1.png" alt="Logo transpal" width="150" height="150"/>
+        </div>
+    </h1>
+    <h2 class="p3"><ins>¿Quienes somos?</ins></h2>
+    <p> 
+        Transpal S.A.C es una empresa de transporte  <i class="fa fa-truck" style="font-size: 15px;"></i> de racimos de <i style="color: red;">palma aceitera</i>, ubicados en la región de <b>UCAYALI, PERÚ</b> <br>
+        <p class="p5">Brindamos seguridad y confianza con nuestro sistema de <del>"GPS"</del> integrado en nuestros vehiculos, tenemos alianzas con empresas como: <br>
+        <ins><b>Olamsa, Industrias de Tulumayo, Indolmasa, Olpesa y Ocho sur</b></ins></p>
+        <div style="text-align: center;">
+        <video width="300" height="150" autoplay muted>
+        <source src="img/descarga.mp4" type="video/mp4" alt="descarga de racimos" > </video>
+        </div>
+    </p>
+    <h2 class="p3">¿Por que elegirnos?</h2>
+    <p class="p3">
+        En Transpal SAC nos importa la <mark>"SEGURIDAD Y CONFIANZA"</mark> de su transporte desde su fundo <br>
+        hasta el destino final (<i style="color: gold;">fabrica</i>), es por ello que, nuestros vehiculos vienen con un sistema de <small><ins><b> "GPS"</b></ins></small> <br>
+        que puede rastrear gratuitamente el transporte en su celular <i class="fa fa-phone" style="font-size: 15px;"></i> a traves de la aplicación Geotracker <sup>GPS</sup>
+        <div style="text-align: center;">
+        <img src="img/geo.png" alt="Logo transpal" width="200" height="50"/>
+        </div>
+        <img src="img/seg.png" alt="Logo transpal" width="250" height="300"/>
+    </p>
+    <h3 class="p2" style="text-align: center;">DATOS DE NUESTRA EMPRESA</h3>
+    <table style="background-color: coral; margin: auto;">
+        <tr>
+            <td>1.</td>
+            <td>Nombre de la empresa</td>
+            <td>Transpal S.A.C</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Ubicación</td>
+            <td>Carretera Federico Basadre Km 43, <i style="color: green;">Campoverde</i></td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Numero de contacto</td>
+            <td><span style="color: green;"><i class="fa fa-whatsapp" style="font-size: 15px;"></span></i><b>  972769632</b></td>
+        </tr>
+        <tr>
+           <td>4.</td>
+            <td>Horario de atención</td>
+            <td class="p4">Lunes a viernes 8am - 5pm</td> 
+        </tr>
+        </tr>
+        <tr>
+           <td>5.</td>
+            <td>Correo electronico</td>
+                <td class="p4"><i class="fa fa-envelope" style="font-size: 15px;"></i> <i>atencion.transpal@gmail.com</i></td> 
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>Siguenos en Facebook</i></td>
+            <td><a target="_blank"href="https://www.facebook.com/profile.php?id=61576010026809"><i class="fa fa-facebook" style="font-size: 15px;"></i><i><ins>  Transpal SAC</ins></i></a></td>
+        </tr>
+    </table>
+
+    <h4 class="p2" style="color: indigo;"><b><ins><i>Cotice con nosotros:</i> </ins><i style="color: greenyellow;" class="fa fa-inbox" style="font-size: 25px;"></i></b></h4>
+    <section>
+<form>
+    <p>
+    <label for="nombre">Nombres:</label>
+    <input id="nombre" name="nombre" placeholder="Nombres"> <!--id, para determinar al for, name, para que no desaparezca el nombre, placeholder para subtitulo-->
+    </p>
+     <p>
+    <label for="apellidos">Apellidos:</label>
+    <input id="apellidos" name="apellidos" placeholder="Apellidos"> 
+    </p>  
+    <p>
+    <label>Sexo:</label>
+    <label for="hombre">hombre</label>
+    <input type="radio" id="hombre" name="genero" value="hombre">
+    <label for="mujer">mujer</label>
+    <input type="radio" id="mujer" name="genero" value="mujer">
+    </p>
+    <label for="telefono">Telefono:</label>
+    <input id="telefono" name="telefono" placeholder="Telefono"> 
+    </p>
+    <label for="correo">Correo electronico:</label>
+    <input type="email" id="correo" name="correo" placeholder="Ingrese su correo"> 
+    </p>
+    <p>
+    <label for="cotizacion">Cotización o sugerencia:</label><br>
+    <textarea name="cotizacion" id="cotizacion" placeholder="Ingrese su comentario" rows="5" cols="50"></textarea> 
+    </p>
+    <p>
+    <label for="area">Cantidad de area en su fundo</label>
+    <select id="area">
+    <option value="1ha">1 hectarea</option>
+    <option value="5ha">2 a 5 ha</option>
+    <option value="10ha">6 a 10 ha</option>
+    <option value="20ha">11 a 20 ha</option>
+    <option value="20ha">mas de 20 ha</option>
+    </select>
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+    </p>
+
+</section>
+
+</form>
+
+</body>
+</html>
